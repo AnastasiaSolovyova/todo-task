@@ -1,0 +1,12 @@
+@import "modules/todo-list.css";
+@import "modules/todo-item.css";
+@import "modules/todo-search.css";
+@import "modules/todo-footer.css";
+.todo{
+    background: #FFF;
+    border:.5px solid lightgray;
+    box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.45);
+    margin: 0 auto;
+    max-width: 40%;
+    border-radius: 4px;
+}

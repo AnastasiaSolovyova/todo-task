@@ -1,0 +1,41 @@
+/* Customize the label (the todo-checkbox) */
+.todo-checkbox {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+/* Hide the browser's default checkbox */
+.todo-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: .5px solid #68C9B8;
+    background: white;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.todo-checkbox input:checked ~ .checkmark {
+    background: url("../../../icons/completed.png") no-repeat 4px 5px;
+    background-size: 25px;
+}

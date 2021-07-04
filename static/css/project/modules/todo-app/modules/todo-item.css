@@ -1,0 +1,22 @@
+@import "../../../../base/ui/todo-checkbox.css";
+@import "../../../../base/ui/todo-text-input.css";
+.todo__item{
+    background: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 0;
+    border-bottom: .5px solid #E9E9E9;
+    vertical-align: middle;
+
+}
+.todo__item .todo-checkbox{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.todo__item .todo-text-input{
+    vertical-align: middle;
+    margin-left: 4px;
+    /*width: 100%;*/
+    width: 90%;
+}

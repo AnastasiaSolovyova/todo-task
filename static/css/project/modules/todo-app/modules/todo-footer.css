@@ -1,0 +1,16 @@
+@import "../../../../base/ui/todo-crumb.css";
+.todo__footer{
+    padding: 8px 5px;
+    display: flex;
+    vertical-align: middle;
+}
+.todo__footer .todo__counter{
+    /*flex:0;*/
+}
+.todo__footer .todo__filters{
+    flex: 1; text-align: center;
+
+}
+.todo__footer .todo__clear{
+    margin:  auto;
+}

@@ -1,0 +1,8 @@
+.todo-text-input{
+ border: none;
+    font-size: 1.2rem;
+
+}
+.todo-text-input:focus{
+    outline: none;
+}

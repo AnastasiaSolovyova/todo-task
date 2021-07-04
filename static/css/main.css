@@ -1,0 +1,12 @@
+@import "project/modules/title/title.css";
+@import "project/modules/todo-app/todo-app.css";
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    background: #F5F5F5;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

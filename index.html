@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="title">
+todos
+    </div>
+    <div class="main">
+        <div class="todo">
+            <div class="todo__search search">
+                <span class="search__icon">
+                    <img src="static/icons/select-all.png"></img>
+                </span>
+                <span class="search__field ">
+                    <input type="text" class="todo-text-input" placeholder="What needs to be done?">
+                </span>
+            </div>
+            <div class="todo__body">
+                <ul class="todo__list">
+                    <li class="todo__item">
+                        <label class="todo-checkbox">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                         <input type="text" placeholder="HTML" class="todo-text-input">
+
+                    </li>
+                    <li class="todo__item">
+                        <label class="todo-checkbox">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="text" placeholder="CSS" class="todo-text-input">
+
+                    </li>
+                    <li class="todo__item">
+                        <label class="todo-checkbox">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="text" placeholder="JS" class="todo-text-input">
+
+                    </li>
+                    <li class="todo__item">
+                        <label class="todo-checkbox">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="text" placeholder="JS Tools" class="todo-text-input">
+
+                    </li>
+
+                </ul>
+            </div>
+            <div class="todo__footer">
+                <div class="todo__counter counter todo-crumb">
+                    <span class="counter__value">3</span>
+                    <span class="counter__text">items left</span>
+                </div>
+                <div class="todo__filters">
+                    <span class="todo__filter todo-crumb active">All</span>
+                    <span class="todo__filter todo-crumb">Active</span>
+                    <span class="todo__filter todo-crumb">Completed</span>
+                </div>
+                <div class="todo__clear">
+                    <span class="todo-crumb">Clear Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

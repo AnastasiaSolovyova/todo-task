@@ -1,0 +1,9 @@
+.todo__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.todo__list .todo__item:first-child{
+    border-top: .5px solid #E9E9E9;
+}

@@ -1,0 +1,9 @@
+.todo-crumb{
+    /*display: inline-block;*/
+    color:lightgray;
+    padding: 2px 4px;
+}
+.todo-crumb.active{
+    border: .5px solid lightgray;
+    border-radius: 3px;
+}
