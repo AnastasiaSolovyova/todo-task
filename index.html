@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>todo</title>
+    <link rel="stylesheet" href="static/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<header><div class="header__title">todos</div></header>
+<body>
+<div class="workspace">
+    <div class="workspace__body">
+        <div class="body__search">
+            <span class="body__search_icon">
+                <img src="static/icons/select-all.png", alt="Error">
+            </span>
+            <span class="git remote add origin">
+            <input type="text" class="input_text_search" placeholder="What needs to be done?" >
+            </span>
+        </div>
+        <div class="body__list">
+            <div class="body__list_item">
+                <input type="checkbox" id="chb1">
+                <label for="chb1"></label>
+                <input type="text" class="input_text" placeholder="HTML">
+                 <a href="#" class="delete_btn">wa</a>
+            </div>
+            <div class="body__list_item">
+                <input type="checkbox" id="chb2">
+                <label for="chb2"></label>
+                <input type="text" class="input_text" placeholder="CSS">
+                <a href="#" class="delete_btn">wa</a>
+            </div>
+            <div class="body__list_item">
+                <input type="checkbox" id="chb3">
+                <label for="chb3"></label>
+                <input type="text" class="input_text" placeholder="JS">
+                <a href="#" class="delete_btn">wa</a>
+            </div>
+            <div class="body__list_item">
+                <input type="checkbox" id="chb4">
+                <label for="chb4"></label>
+                <input type="text" class="input_text" placeholder="JS tools">
+                <a href="#" class="delete_btn">wa</a>
+            </div>
+        </div>
+    </div>
+    <div class="workspace__footer">
+        <form>
+        <span class="footer__counter">
+            <span class="footer__counter_value">3</span>
+            <span class="footer__counter_text">items left</span>
+        </span>
+        <span class="footer__filters">
+            <a href="#" class="button_All">All</a>
+            <a href="#" class="button_Active">Active</a>
+            <a href="#" class="button_Completed">Completed</a>
+
+        </span>
+        <span class="footer__clear">
+            <a href="#" class="button_Clear_Completed">Clear completed</a>
+        </span>
+        </form>
+    </div>
+</div>
+</body>
+</html>

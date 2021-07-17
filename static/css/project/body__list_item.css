@@ -1,0 +1,54 @@
+.body__list_item
+{
+    height: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    border-bottom: 1px solid #d9d5d5;
+    position:relative;
+}
+input
+{
+    margin: 7px 0px;
+    padding: 0px;
+
+}
+input[type="checkbox"]{
+    display:none;
+}
+label {
+
+
+    padding-left:  20px
+
+}
+label::before {
+
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #5dc3af;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::before {
+    background: url("../../icons/completed.png") center no-repeat;
+
+}
+
+a.delete_btn
+{
+    position:absolute;
+    bottom:33%;
+    right:30px;
+    color:transparent;
+    display:none;
+    background-image: url("../../icons/close.png");
+}
+.body__list_item:hover .delete_btn{
+    display:block;
+}
+
